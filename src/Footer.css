@@ -1,0 +1,315 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: hsl(12, 88%, 59%);
+  width: 100%;
+  height: 250px;
+  gap: 30px;
+}
+
+.footer-title {
+  color: #fff;
+  width: 415px;
+}
+
+.footer-Started-btn {
+  background-color: #fff;
+  color: hsl(12, 88%, 59%);
+  height: 55px;
+  outline: none;
+  font-weight: bold;
+  border-radius: 50px;
+  border: none;
+  padding: 10px 30px 10px 30px;
+  box-shadow: 0px 11px 15px -2px rgba(242, 95, 58, 0.54);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer-Started-btn:hover {
+  color: #f5aa53;
+}
+
+.bottom-footer-container {
+  background-color: hsl(233, 12%, 13%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 155px;
+  height: 250px;
+}
+
+.logo-Image {
+  filter: invert(1);
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon-container .fa-icon {
+  color: white; /* Set the color to white */
+  font-size: 1.5em; /* Adjust the font size as needed */
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.icon-container .fa-icon:hover {
+  color: hsl(12, 88%, 59%);
+}
+
+.footer-nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+.footer-nav-links ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  gap: 15px;
+}
+
+.footer-nav-links ul li {
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.footer-nav-links ul li:hover {
+  color: hsl(12, 88%, 59%);
+}
+
+.input-Container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.emailInput {
+  background-color: #fff;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  padding: 5px 80px 5px 30px;
+  cursor: pointer;
+  height: 45px;
+}
+
+.input-Container.error .emailInput {
+  border-color: hsl(0, 100%, 70%);
+  color: hsl(0, 100%, 70%);
+  background: hsl(0, 100%, 95%);
+}
+
+.input-Container.error .error-msg {
+  position: absolute;
+  top: 60px;
+  left: 25px;
+  font-size: 0.8em;
+  font-style: italic;
+  color: hsl(0, 100%, 70%);
+}
+
+.go-button {
+  background-color: hsl(12, 88%, 59%);
+  color: #fff;
+  height: 45px;
+  outline: none;
+  border-radius: 50px;
+  border: none;
+  padding: 10px 30px 10px 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.go-button:hover {
+  background-color: hsl(18, 94%, 67%);
+}
+
+.reserved-text {
+  display: none;
+}
+
+.title-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 65px;
+}
+
+.desktop-reserved-text {
+  color: hsl(227, 12%, 61%);
+  font-size: 12px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top-footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(12, 88%, 59%);
+    width: 100%;
+    height: 360px;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .footer-title {
+    color: #fff;
+    width: 270px;
+  }
+
+  .footer-Started-btn {
+    background-color: #fff;
+    color: hsl(12, 88%, 59%);
+    height: 55px;
+    outline: none;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    box-shadow: 0px 11px 15px -2px rgba(242, 95, 58, 0.54);
+    cursor: pointer;
+  }
+
+  .bottom-footer-container {
+    background-color: hsl(233, 12%, 13%);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+    height: 520px;
+  }
+
+  .desktop-reserved-text {
+    display: none;
+  }
+
+  .reserved-text {
+    display: block;
+    color: hsl(227, 12%, 61%);
+    font-size: 12px;
+    padding: 20px;
+  }
+
+  .logo-Image {
+    filter: invert(1);
+  }
+
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .icon-container .fa-icon {
+    color: white; /* Set the color to white */
+    font-size: 2em; /* Adjust the font size as needed */
+  }
+
+  .footer-nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+  }
+
+  .footer-nav-links ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    gap: 15px;
+  }
+
+  .footer-nav-links ul li {
+    color: #fff;
+  }
+
+  .input-Container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .emailInput {
+    background-color: #fff;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    padding: 5px 80px 5px 30px;
+    cursor: pointer;
+    height: 45px;
+  }
+
+  .input-Container.error .emailInput {
+    border-color: hsl(0, 100%, 70%);
+    color: hsl(0, 100%, 70%);
+    background: hsl(0, 100%, 95%);
+  }
+
+  .input-Container.error .error-msg {
+    position: absolute;
+    top: 60px;
+    left: 25px;
+    font-size: 0.8em;
+    font-style: italic;
+    color: hsl(0, 100%, 70%);
+  }
+
+  .go-button {
+    background-color: hsl(12, 88%, 59%);
+    color: #fff;
+    height: 45px;
+    outline: none;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    cursor: pointer;
+  }
+
+  .title-icons {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+}
